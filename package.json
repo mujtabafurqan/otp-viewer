@@ -1,0 +1,32 @@
+{
+  "name": "otpviewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-keycloak/ssr": "^3.3.0",
+    "@react-keycloak/web": "^3.4.0",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "ioredis": "^5.3.0",
+    "keycloak-js": "^20.0.3",
+    "next": "^13.1.5",
+    "next-auth": "^4.19.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "redis": "^4.6.0",
+    "save": "^2.9.0"
+  },
+  "devDependencies": {
+    "react-uuid": "^2.0.0"
+  }
+}
